@@ -10,6 +10,7 @@ class AoC2023Day1 {
         int total = 0;
         int first = 0;
         int second = 0;
+        // biggest number spelled out is nine
         while (inscan.hasNextLine()) {
             String line = inscan.nextLine();
             for (char c : line.toCharArray()) {
